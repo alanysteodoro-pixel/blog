@@ -1,4 +1,193 @@
-<!doctype html>
-    <html lang="pt-br"
-    <head>
-    <meta     
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Meu Espaço Pessoal</title>
+
+<style>
+
+body{
+
+    font-family: 'Arial', sans-serif;
+
+    background-color: #9b59b6;
+
+    margin: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+.card{
+
+    background-color: white;
+
+    width: 80%;
+
+    max-width: 600px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+}
+
+h1{
+
+    color: #6a1b9a;
+
+}
+
+h2{
+
+    color: #8e44ad;
+
+}
+
+p{
+
+    color: #333;
+
+    font-size: 18px;
+
+}
+
+img{
+
+    width: 180px;
+
+    height: 180px;
+
+    border-radius: 50%;
+
+    border: 5px solid #9b59b6;
+
+}
+
+ul{
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+li{
+
+    margin: 10px;
+
+    font-size: 17px;
+
+}
+
+.botao{
+
+    display: inline-block;
+
+    background-color: #8e44ad;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    margin-top: 15px;
+
+}
+
+.botao:hover{
+
+    background-color: #6a1b9a;
+
+}
+
+footer{
+
+    margin-top: 25px;
+
+    color: #777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>✨ Meu Cantinho ✨</h1>
+
+<h2>Sobre mim</h2>
+
+<p>
+
+Olá! Eu sou Ana. Este é meu blog pessoal, onde compartilho
+
+um pouco sobre minha vida, meus gostos e meus sonhos.
+
+</p>
+
+<img src="https://via.placeholder.com/180" alt="Minha foto">
+
+<h2>Coisas que eu gosto</h2>
+
+<ul>
+
+<li>🎶 Música</li>
+
+<li>📚 Aprender coisas novas</li>
+
+<li>🌸 Tirar fotos</li>
+
+<li>🎥 Filmes e séries</li>
+
+</ul>
+
+<h2>Meus sonhos</h2>
+
+<p>
+
+Meu objetivo é crescer, aprender cada vez mais e construir
+
+um futuro cheio de conquistas.
+
+</p>
+
+<h2>Entre em contato</h2>
+
+<a class="botao" href="https://www.instagram.com/" target="_blank">
+
+Meu Instagram
+
+</a>
+
+<footer>
+
+<p>Feito com carinho 💜</p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
+
+   
